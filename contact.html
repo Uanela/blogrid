@@ -71,7 +71,7 @@
         <div class="contact-section">
           <div class="contact-form">
             <p>Por favos use o formulário abaixo para poder nos contactar</p>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
               <div class="form-group">
                 <label for="name">Nome</label>
                 <input
@@ -208,10 +208,10 @@
               >Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus fugit odit expedita, recusandae officia laborum?</p
             >
-            <form>
-              <input type="text" placeholder="Seu Nome" />
-              <input type="email" placeholder="Seu Email" />
-              <button>Enviar</button>
+            <form name="contact" method="POST" data-netlify="true">
+              <input type="text" name="Nome" placeholder="Seu Nome" />
+              <input type="email" name="Email" placeholder="Seu Email" />
+              <button type="submit">Enviar</button>
             </form>
           </div>
 
